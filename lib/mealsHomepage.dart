@@ -15,6 +15,7 @@ class mealsHomePage extends StatefulWidget {
 class _mealsHomePageState extends State<mealsHomePage> {
 
   Iterable<Meal> mylist = dunny_names;
+  var abc = true;
   void newList(Map<String,bool> mapp){
 
     setState(() {
